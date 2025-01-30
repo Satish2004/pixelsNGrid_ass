@@ -46,7 +46,7 @@ html {
 #home {
   width: 100%;
   position: fixed;
-  height: 100%;
+  height: 150vh;
   /* padding: 20px; */
   margin: 3px;
   /* list-style: none; */
@@ -158,4 +158,114 @@ html {
   width: 100%;
   padding: 0, 7vw;
   font-size: large;
+}
+/* Medium Devices (Tablets) */
+@media (max-width: 1024px) {
+  #nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
+  }
+
+  #nav a {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+
+  .row h1,
+  .row1 h1 {
+    font-size: 10vw;
+  }
+
+  .row1 .creative {
+    font-size: 6vw;
+  }
+
+  .drop-down {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .leftPart h1 {
+    font-size: 4vw;
+  }
+
+  .imgContainer {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+/* Small Devices (Phones) */
+@media (max-width: 768px) {
+  #nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #nav a {
+    font-size: 1rem;
+    padding: 5px;
+  }
+
+  .row h1,
+  .row1 h1 {
+    font-size: 12vw;
+  }
+
+  .row1 .creative {
+    font-size: 8vw;
+  }
+
+  .drop-down {
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+  }
+
+  .leftPart h1 {
+    font-size: 5vw;
+  }
+
+  .imgContainer {
+    width: 180px;
+    height: 120px;
+  }
+}
+
+/* Extra Small Devices (Small Phones) */
+@media (max-width: 480px) {
+  #nav {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #nav a {
+    font-size: 0.9rem;
+  }
+
+  .row h1,
+  .row1 h1 {
+    font-size: 14vw;
+  }
+
+  .row1 .creative {
+    font-size: 10vw;
+  }
+
+  .drop-down {
+    width: 40px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  .leftPart h1 {
+    font-size: 6vw;
+  }
+
+  .imgContainer {
+    width: 160px;
+    height: 100px;
+  }
 }
